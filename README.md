@@ -34,20 +34,12 @@ Claim rewards for your locked tokens.
 - `_lockId` (uint256): ID of the lock to claim rewards for
 
 ### Claim Redistribution
-Claim redistribution rewards for your lock.
+Claim redistribution rewards for your lock. Also claim remaining redistribution rewards after unlocking 97% or more of your tokens within 1 day.
 
 **Function:** `claimRedistribution`
 **Inputs:**
 - `_token` (address): Token address to claim redistribution in
 - `_lockId` (uint256): ID of the lock to claim redistribution for
-
-### Claim Remaining Rewards
-Claim remaining redistribution rewards after unlocking 97% or more of your tokens.
-
-**Function:** `claimRemainingRewards`
-**Inputs:**
-- `_token` (address): Token address to claim remaining rewards in
-- `_lockId` (uint256): ID of the lock
 
 ## Important Notes
 
