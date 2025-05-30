@@ -30,17 +30,18 @@ Claim rewards for your locked tokens.
 
 **Function:** `claimRewards`
 **Inputs:**
-- `_token` (address): Token address to claim rewards in
+- `_tokens` (address): Token addresses to claim rewards in
 - `_lockId` (uint256): ID of the lock to claim rewards for
 - `daysOfUnclaimed` (uint256): Days of unclaimed rewards user wants to claim
+- `storeForLater` (boolean): Whether user wants to stored reward token amounts or not
 
-### Claim Redistribution
-Claim redistribution rewards for your lock. Also claim remaining redistribution rewards after unlocking 97% or more of your tokens within 1 day.
+### Claim Stored Tokens
+Claim stored tokens you stored stored using claim rewards.
 
-**Function:** `claimRedistribution`
+**Function:** `claimStoredRewards`
 **Inputs:**
-- `_token` (address): Token address to claim redistribution in
-- `_lockId` (uint256): ID of the lock to claim redistribution for
+- `_tokens` (address): Token addresses of stored reward tokens to claim
+- `_lockId` (uint256): ID of the lock to claim stored tokens of
 
 ## Important Notes
 
